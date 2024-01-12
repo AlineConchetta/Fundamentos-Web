@@ -11,7 +11,15 @@ body{
     padding:0;
     border:0;
 }
-
+nav{
+    display: grid;
+    /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+    grid-template-columns: repeat(3, 1fr);
+    /* espaço entre um elemento interno e outro */
+    grid-gap: 20px 20px;
+    /* margem interna que afasta os elementos da borda do grid */
+    padding: 20px 20px;
+}
 nav button{
     display: inline-block;
     width: 440px;
@@ -23,7 +31,10 @@ nav button{
 
 
 }
-
+button a{
+    display:inline-block;
+    
+}
 button{
     display:inline-block;
     width: 228px;
@@ -40,9 +51,11 @@ button{
     line-height: normal;
     margin-inline: 40px;
 }
-section{
-    display: inline-block;
+section{ 
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
 section h2{
     color: #250300;
 
@@ -70,16 +83,8 @@ section h4{
     border-radius: 25px;
     border: 3px solid #250300;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-p{
-    width: 304px;
-    height: 71px;
+    margin-bottom: 0;
 
-    color: #150200;
-
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    width: 519px;
+    height: 400px
 }
