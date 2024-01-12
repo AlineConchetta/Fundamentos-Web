@@ -1,0 +1,121 @@
+body{
+    margin: 10, 10, 10, 10;
+}
+
+.img1 {
+    width: 1440px;
+    height: 403px;
+    flex-shrink: 0;
+    }
+
+    nav{
+        display: grid;
+        /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
+        grid-template-columns: repeat(3, 1fr);
+        /* espaço entre um elemento interno e outro */
+        grid-gap: 20px 20px;
+        /* margem interna que afasta os elementos da borda do grid */
+        padding: 20px 20px;
+    }
+
+    nav button{
+        display: inline-block;
+        width: 440px;
+        height: 88px;
+        flex-shrink: 0;
+    
+        border-radius: 25px;
+        background: linear-gradient(90deg, #FBCF9E 0%, #FFB7B0 100%);
+    
+    
+    }
+    button a{
+        display:inline-block;
+        
+    }
+    button{
+        display:inline-block;
+        width: 228px;
+        height: 47px;
+        flex-shrink: 0;
+        justify-content: space-between;
+    
+        color: #250300;
+    
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-inline: 40px;
+    }
+
+    section h1{
+        color: #250300;
+
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.68px;
+    }
+
+    section .p1{
+        color: #250300;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.4px;
+    }
+
+    .img2{
+        width: 519px;
+        height: 400px;
+        flex-shrink: 0;
+        border-radius: 25px;
+        border: 3px solid #250300;
+    }
+
+    article h1{
+        color: #250300;
+        font-family: Work Sans;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.68px;
+
+    }
+    article .p2{
+    width: 1400px;
+
+    color: #250300;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    }
+
+    .p3{
+    width: 1400px;
+    
+    color: #250300;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    }
+
+    .img3{
+    width: 519px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 3px solid #250300;
+    }
