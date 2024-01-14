@@ -18,16 +18,37 @@
 </nav>
 
     <section>
+        <div>
         <h2>Sobre a Aline:</h2>
             <h4>Sou uma pessoa bastante agitada, mas que sabe valorizar bons momentos de calmaria e introspecção.
             Bastante comunicativa e versátil, estou sempre em busca de novos desafios e aventuras,
             e foi assim que aprendi diversas coisas diferentes ao longo desses 24 aninhos de existência.</h4>
-    
-            
-                <img class="img2" src="assets/img/img Aline.jpg" alt="Foto de Aline Conchetta, autora da página">
-                
+        
+            <form action="" method="POST">
+
+                <input type="hidden" name="_next" value="">
+                <input type="hidden" name="_captcha" value="false">
+
+                <label for="nome"><strong>Nome: </strong></label>
+                <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+
+                <label for="email"><strong>Email: </strong></label>
+                <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+
+                <label for="subject"><strong>Assunto: </strong></label>
+                <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+
+                <label for="message"><strong>Mensagem: </strong></label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+
+                <button class="btn" type="submit">Enviar</button>
+            </form>
+        
+        
+        </div>
+            <img class="img2" src="assets/img/img Aline.jpg" alt="Foto de Aline Conchetta, autora da página">
     </section> 
-    
+   
 
 </body>
 </html>
