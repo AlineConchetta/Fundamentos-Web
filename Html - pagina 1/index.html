@@ -30,13 +30,16 @@
                 <input type="hidden" name="_captcha" value="false">
 
                 <label for="nome"><strong>Nome: </strong></label>
-                <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+                <input id="nome" type="text" name="name" placeholder="Digite seu nome" required onkeyup="validaNome()">
+                <div id="txtNome"></div>
 
                 <label for="email"><strong>Email: </strong></label>
-                <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                <input id="email" type="email" name="email" placeholder="Digite seu email" required onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
 
                 <label for="subject"><strong>Assunto: </strong></label>
-                <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+                <input id="assunto" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+                <div id="txtAssunto"></div>
 
                 <label for="message"><strong>Mensagem: </strong></label>
                 <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
@@ -48,6 +51,8 @@
         </div>
             <img class="img2" src="assets/img/img Aline.jpg" alt="Foto de Aline Conchetta, autora da página">
     </section> 
+
+    <script src="./js/script.js"></script>
    
 
 </body>
